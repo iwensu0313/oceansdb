@@ -181,10 +181,10 @@
 		"varnames": {
 		    "latitude": "lat",
 		    "longitude": "lon",
-		    "mean": "t_mn",
-                    "standard_deviation": "t_sd",
-                    "standard_error": "t_se",
-                    "number_of_observations": "t_dd"
+		    "mean": "s_mn",
+                    "standard_deviation": "s_sd",
+                    "standard_error": "s_se",
+                    "number_of_observations": "s_dd"
 		    },
 		"annual": [
                     {
@@ -346,7 +346,180 @@
 		        }
                     ]
                 }
-            }
+            },
+            "percent_oxygen_sat": {
+                "default_resolution": "5deg",
+                "1deg": {
+                    "default_tscale": "seasonal",
+    		"varnames": {
+    		    "latitude": "lat",
+    		    "longitude": "lon",
+    		    "mean": "osat_mn",
+                        "standard_deviation": "osat_sd",
+                        "standard_error": "osat_se",
+                        "number_of_observations": "osat_dd"
+    		    },
+    		"annual": [
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O00_01.nc",
+                            "md5hash": ""
+                            }
+                        ],
+    		"monthly": [
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O01_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O02_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O03_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O04_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O05_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O06_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O07_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O08_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O09_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O10_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O11_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O12_01.nc",
+                            "md5hash": ""
+                            }
+                        ],
+                    "seasonal": [
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O13_01.nc",
+                            "md5hash": ""
+                            },
+    	            {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O14_01.nc",
+    			"md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O15_01.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/1.00/woa18_all_O16_01.nc",
+                            "md5hash": ""
+                            }
+                        ]
+                    },
+                "5deg": {
+                    "default_tscale": "seasonal",
+    		"varnames": {
+    		    "latitude": "lat",
+    		    "longitude": "lon",
+    		    "mean": "osat_mn",
+                        "standard_deviation": "osat_sd",
+                        "standard_error": "osat_se",
+                        "number_of_observations": "osat_dd"
+    		    },
+    		"annual": [
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O00_5d.nc",
+                            "md5hash": ""
+                            }
+                        ],
+    		"monthly": [
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O01_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O02_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O03_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O04_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O05_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O06_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O07_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O08_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O09_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O10_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O11_5d.nc",
+                            "md5hash": ""
+                            },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O12_5d.nc",
+                            "md5hash": ""
+                            }
+                        ],
+                    "seasonal": [
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O13_5d.nc",
+                            "md5hash": ""
+                            },
+    	            {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O14_5d.nc",
+                            "md5hash": ""
+    		        },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O15_5d.nc",
+                            "md5hash": ""
+    		        },
+                        {
+                            "url": "https://data.nodc.noaa.gov/woa/WOA18/DATA/o2sat/netcdf/all/5deg/woa18_all_O16_5d.nc",
+                            "md5hash": ""
+    		        }
+                        ]
+                    }
+                }
         }
     }
 }

@@ -15,3 +15,4 @@ Erdem M Karakoylu: Reported bad checksum on CARS' salinity file (issue #7).
 @maryjacketti: Reported bug #12, outdated ETOPO documentation.
 Uday Bhaskar T V S: Reported improper path to DB files for Windows machines.
 Carin Anderson & Ozan Göktürk: Reported bug #14 - coordinates partially coincident.
+@iwensu0313: Added WOA percent oxygen saturation, correct salinity `varnames`.
